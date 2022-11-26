@@ -13,6 +13,8 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Nav from "./Nav";
+import IconButton from "@material-ui/core/IconButton";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 function Copyright() {
   return (
@@ -142,6 +144,15 @@ export const Regisiter = () => {
         <Box mt={5}>
           <Copyright />
         </Box>
+        <IconButton edge="start" color="contained">
+          <ArrowForwardIosIcon />
+          <ArrowForwardIosIcon />
+          <ArrowForwardIosIcon />
+          <ArrowForwardIosIcon />
+        </IconButton>
+        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+        <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
       </Container>
     </>
   );
